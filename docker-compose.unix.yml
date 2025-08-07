@@ -55,7 +55,7 @@ services:
       context: .
       target: server
     ports:
-      - "8080:8080"
+      - "8090:8080"
     volumes:
       - ./server:/app/server
       - shared-dist:/app/shared/dist
