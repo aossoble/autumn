@@ -36,7 +36,7 @@ services:
       context: .
       target: vite
     ports:
-      - "3000:3000"
+      - "3012:3000"
     volumes:
       - ./vite:/app/vite
       - shared-dist:/app/shared/dist
